@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		66F975C46ED22D4F37D79446 /* libPods-GifStore-GifStoreTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA401F5C87AFC25B58D32DB /* libPods-GifStore-GifStoreTests.a */; };
+		503C60E188C83668DA785814 /* libPods-GifStore-GifStoreTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1810C0FA51A6CAE660C22A /* libPods-GifStore-GifStoreTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		DA126789A43C76C2F56E49A5 /* libPods-GifStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8007B486B91F0E6809685FDD /* libPods-GifStore.a */; };
+		9E3CC46A0A59930CA5AB26FE /* libPods-GifStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 532F5DE2A7025BDE00D87DE4 /* libPods-GifStore.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,19 +30,19 @@
 		00E356EE1AD99517003FC87E /* GifStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* GifStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GifStoreTests.m; sourceTree = "<group>"; };
-		0896C978EF4AAD1F966B1D91 /* Pods-GifStore-GifStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifStore-GifStoreTests.release.xcconfig"; path = "Target Support Files/Pods-GifStore-GifStoreTests/Pods-GifStore-GifStoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		0AF5D8B26868EC89A764098F /* Pods-GifStore-GifStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifStore-GifStoreTests.release.xcconfig"; path = "Target Support Files/Pods-GifStore-GifStoreTests/Pods-GifStore-GifStoreTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* GifStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GifStore/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = GifStore/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GifStore/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GifStore/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GifStore/main.m; sourceTree = "<group>"; };
-		2DA401F5C87AFC25B58D32DB /* libPods-GifStore-GifStoreTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GifStore-GifStoreTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		73530E37A34AFCF98936CEC8 /* Pods-GifStore-GifStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifStore-GifStoreTests.debug.xcconfig"; path = "Target Support Files/Pods-GifStore-GifStoreTests/Pods-GifStore-GifStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8007B486B91F0E6809685FDD /* libPods-GifStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GifStore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB363DA0232AC825116EEC2 /* Pods-GifStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifStore.release.xcconfig"; path = "Target Support Files/Pods-GifStore/Pods-GifStore.release.xcconfig"; sourceTree = "<group>"; };
+		532F5DE2A7025BDE00D87DE4 /* libPods-GifStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GifStore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GifStore/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CA24D4BFDA3D7B0793F0E1C2 /* Pods-GifStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifStore.debug.xcconfig"; path = "Target Support Files/Pods-GifStore/Pods-GifStore.debug.xcconfig"; sourceTree = "<group>"; };
-		D2DC32BA607634E76E0A4987 /* Pods-GifStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifStore.release.xcconfig"; path = "Target Support Files/Pods-GifStore/Pods-GifStore.release.xcconfig"; sourceTree = "<group>"; };
+		B0AC4349954E9DA7F19F7146 /* Pods-GifStore-GifStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifStore-GifStoreTests.debug.xcconfig"; path = "Target Support Files/Pods-GifStore-GifStoreTests/Pods-GifStore-GifStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF1810C0FA51A6CAE660C22A /* libPods-GifStore-GifStoreTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GifStore-GifStoreTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D525F7C8431E87F2BC769311 /* Pods-GifStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifStore.debug.xcconfig"; path = "Target Support Files/Pods-GifStore/Pods-GifStore.debug.xcconfig"; sourceTree = "<group>"; };
 		EB9BC056298520C400A349D4 /* GifStore-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GifStore-Bridging-Header.h"; sourceTree = "<group>"; };
 		EB9BC057298520C400A349D4 /* GifStoreTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GifStoreTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		EB9BC05B298521CA00A349D4 /* GiphyUISDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GiphyUISDK.xcframework; path = Pods/Giphy/GiphySDK/GiphyUISDK.xcframework; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66F975C46ED22D4F37D79446 /* libPods-GifStore-GifStoreTests.a in Frameworks */,
+				503C60E188C83668DA785814 /* libPods-GifStore-GifStoreTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA126789A43C76C2F56E49A5 /* libPods-GifStore.a in Frameworks */,
+				9E3CC46A0A59930CA5AB26FE /* libPods-GifStore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,8 +104,8 @@
 			children = (
 				EB9BC05B298521CA00A349D4 /* GiphyUISDK.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				8007B486B91F0E6809685FDD /* libPods-GifStore.a */,
-				2DA401F5C87AFC25B58D32DB /* libPods-GifStore-GifStoreTests.a */,
+				532F5DE2A7025BDE00D87DE4 /* libPods-GifStore.a */,
+				BF1810C0FA51A6CAE660C22A /* libPods-GifStore-GifStoreTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -146,10 +146,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CA24D4BFDA3D7B0793F0E1C2 /* Pods-GifStore.debug.xcconfig */,
-				D2DC32BA607634E76E0A4987 /* Pods-GifStore.release.xcconfig */,
-				73530E37A34AFCF98936CEC8 /* Pods-GifStore-GifStoreTests.debug.xcconfig */,
-				0896C978EF4AAD1F966B1D91 /* Pods-GifStore-GifStoreTests.release.xcconfig */,
+				D525F7C8431E87F2BC769311 /* Pods-GifStore.debug.xcconfig */,
+				1AB363DA0232AC825116EEC2 /* Pods-GifStore.release.xcconfig */,
+				B0AC4349954E9DA7F19F7146 /* Pods-GifStore-GifStoreTests.debug.xcconfig */,
+				0AF5D8B26868EC89A764098F /* Pods-GifStore-GifStoreTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -161,12 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GifStoreTests" */;
 			buildPhases = (
-				23825C3CDA32BC913CEC734B /* [CP] Check Pods Manifest.lock */,
+				3DD6A28D736BEFA795E914B9 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				E3B1C29921122B2BA0E786FD /* [CP] Embed Pods Frameworks */,
-				D90533054B925BA3D5929E39 /* [CP] Copy Pods Resources */,
+				A34D50F0E7C7C6EBBC62BB97 /* [CP] Embed Pods Frameworks */,
+				A354036CB6C99501DA1724E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,14 +182,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GifStore" */;
 			buildPhases = (
-				82709ADE5D14C8BFBE437500 /* [CP] Check Pods Manifest.lock */,
+				41FC86D1B2B251C12C457C31 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				33E46CBDC2B2EA9C0C6820C7 /* [CP] Embed Pods Frameworks */,
-				D1D0DEF0E7C38148477FF9E1 /* [CP] Copy Pods Resources */,
+				37A67DD1A26A4F47FA946FA6 /* [CP] Embed Pods Frameworks */,
+				0ED94EDD8BC1E13BE677DAD5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,7 +273,41 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		23825C3CDA32BC913CEC734B /* [CP] Check Pods Manifest.lock */ = {
+		0ED94EDD8BC1E13BE677DAD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GifStore/Pods-GifStore-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GifStore/Pods-GifStore-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GifStore/Pods-GifStore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37A67DD1A26A4F47FA946FA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GifStore/Pods-GifStore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GifStore/Pods-GifStore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GifStore/Pods-GifStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DD6A28D736BEFA795E914B9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -295,24 +329,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		33E46CBDC2B2EA9C0C6820C7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GifStore/Pods-GifStore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GifStore/Pods-GifStore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GifStore/Pods-GifStore-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		82709ADE5D14C8BFBE437500 /* [CP] Check Pods Manifest.lock */ = {
+		41FC86D1B2B251C12C457C31 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -334,41 +351,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D1D0DEF0E7C38148477FF9E1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GifStore/Pods-GifStore-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GifStore/Pods-GifStore-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GifStore/Pods-GifStore-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D90533054B925BA3D5929E39 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GifStore-GifStoreTests/Pods-GifStore-GifStoreTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GifStore-GifStoreTests/Pods-GifStore-GifStoreTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GifStore-GifStoreTests/Pods-GifStore-GifStoreTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E3B1C29921122B2BA0E786FD /* [CP] Embed Pods Frameworks */ = {
+		A34D50F0E7C7C6EBBC62BB97 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -383,6 +366,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GifStore-GifStoreTests/Pods-GifStore-GifStoreTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A354036CB6C99501DA1724E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GifStore-GifStoreTests/Pods-GifStore-GifStoreTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GifStore-GifStoreTests/Pods-GifStore-GifStoreTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GifStore-GifStoreTests/Pods-GifStore-GifStoreTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -437,7 +437,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73530E37A34AFCF98936CEC8 /* Pods-GifStore-GifStoreTests.debug.xcconfig */;
+			baseConfigurationReference = B0AC4349954E9DA7F19F7146 /* Pods-GifStore-GifStoreTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
@@ -468,7 +468,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0896C978EF4AAD1F966B1D91 /* Pods-GifStore-GifStoreTests.release.xcconfig */;
+			baseConfigurationReference = 0AF5D8B26868EC89A764098F /* Pods-GifStore-GifStoreTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
@@ -495,7 +495,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA24D4BFDA3D7B0793F0E1C2 /* Pods-GifStore.debug.xcconfig */;
+			baseConfigurationReference = D525F7C8431E87F2BC769311 /* Pods-GifStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -523,7 +523,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2DC32BA607634E76E0A4987 /* Pods-GifStore.release.xcconfig */;
+			baseConfigurationReference = 1AB363DA0232AC825116EEC2 /* Pods-GifStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

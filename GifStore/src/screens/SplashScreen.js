@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
         fontFamily: 'Didot',
         fontSize: 36,
         fontWeight: 'bold',
-        color: '#09958E'
+        color: '#000000'
     },
     splashStyle: {
         width: '80%',

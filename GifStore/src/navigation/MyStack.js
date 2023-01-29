@@ -1,10 +1,14 @@
 import { createStackNavigator } from "@react-navigation/stack";
+import { useContext } from "react";
+import { ThemeContext } from "../../App";
 import HomeScreen from "../screens/HomeScreen";
 import SplashScreen from "../screens/SplashScreen";
 
 const Stack = createStackNavigator();
 
 const MyStack = () => {
+
+    const { theme, setTheme } = useContext(ThemeContext);
 
     return (
         <Stack.Navigator
@@ -15,13 +19,13 @@ const MyStack = () => {
             <Stack.Screen name="HomeScreen" component={HomeScreen} options={{
                 title: "GifStore",
                 headerTitleStyle: {
-                    color: '#09958E',
-                    fontFamily: 'Didot',
+                    color: theme.secondary,
+                    fontFamily: 'Avenir',
                     fontSize: 20,
                     fontWeight: 'bold'
                 },
                 headerStyle: {
-                    backgroundColor: 'white'
+                    backgroundColor: theme.primary
                 }
             }} />
         </Stack.Navigator >

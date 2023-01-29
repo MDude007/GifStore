@@ -10,7 +10,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "@react-native-seoul/masonry-list": "^1.4.1",
     "@react-navigation/native": "^6.1.2",
     "@react-navigation/native-stack": "^6.9.8",
     "@react-navigation/stack": "^6.3.11",
